@@ -110,3 +110,34 @@ body {
   75% { transform: translateX(-2px); }
   100% { transform: translateX(0); }
 }
+.final-stats {
+  background: #f0f7ff;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.high-score-label {
+  color: #4facfe;
+  font-size: 1.1rem;
+}
+
+.new-record {
+  color: #2ecc71;
+  font-weight: bold;
+  animation: bounce 1s infinite;
+}
+
+.footer-high-score {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #888;
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
